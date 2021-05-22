@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TodoItems from '../TodoItems';
-import '../style.css'
+import '../style.css';
 
 class TodoList extends Component {
 
@@ -14,8 +14,6 @@ class TodoList extends Component {
 
         this.addItem = this.addItem.bind(this);
         this.deleteItem = this.deleteItem.bind(this);
-
-
     }
 
     addItem(e) {
@@ -30,11 +28,10 @@ class TodoList extends Component {
             this.setState({ items: [...state.items, newItem] });
         }
 
-
         e.preventDefault();
 
         //      QUANDO FOR ADICIONADO NA LISTA LIMPAR O CAMPO DO INPUT
-        this.setState({ tarefa: '' })
+        this.setState({ tarefa: '' });
     }
 
     deleteItem(key) {
@@ -43,7 +40,7 @@ class TodoList extends Component {
             return (item.key !== key);
         })
 
-        this.setState({ items: filtro })
+        this.setState({ items: filtro });
     }
 
     render() {
