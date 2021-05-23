@@ -1,4 +1,4 @@
-# Github Repositorios
+# TodoList React
 
 Um site de lista de tarefas
 
@@ -12,33 +12,21 @@ Foto do projeto
 
 ![Foto do projeto](FotoTodoList.PNG)
 
-Resultado final: https://clever-bose-7e0ccf.netlify.app/
+Resultado final: https://wizardly-ramanujan-47d3ac.netlify.app/
 
 ## Objetivo do projeto
 
-Projeto desenvolvido para treinar React Hooks
+Projeto desenvolvido para treinar React.js
 
 ## Tecnologias Usadas no projeto
 
 Projeto feito utilizando as seguintes linguagens/tecnologias: 
 
-* React Hooks
-* API github
+* React.js
 
 ## Instalação
 
 Para que este projeto rode em sua máquina, siga os passos abaixo:
 
 Clone este repositório em uma pasta em sua máquina  
-$ git clone https://github.com/Leveditor/filtrandoRepositorios.git
-
-Entre na pasta  
-$ cd filtrandoRepositorios  
-
-Instale as dependencias digitando no termimal:  
-$ npm install
-
-Rode a aplicação no modo de desenvolvimento.  
-$ npm start
-
-Abra a porta http://localhost:3000 no seu navegador para visualizar o projeto
+$ git clone https://github.com/Leveditor/TodoListReact.git
