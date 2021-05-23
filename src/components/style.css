@@ -7,28 +7,8 @@
     align-items: center;
 }
 
-.inputTodoList {
-    border-radius: 10px;
-    border: none;
-    width: 350px;
-    font-size: 25px;
-    padding: 10px;
-}
-
-.botaoTodoList {
-    font-size: 25px;
-    padding: 10px;
-    background-color: yellow;
-    border: none;
-    border-radius: 10px;
-    margin-left: 20px;
-}
-
-/* CSS DO COMPONENTE TODOITEMS */
-.div-ul {
-    background: #FFF;
-    width: 500px;
-    height: 450px;
+.botaoTodoList:hover {
+    background-color: #CCC622;
 }
 
 .div-ul h3 {
@@ -38,5 +18,72 @@
 
 .div-ul ul {
     font-size: 20px;
-    padding-top: 20px;
 }
+
+.div-ul ul .li {
+    padding-top: 10px;
+}
+
+.trash {
+    color: #EC3401;
+    cursor: pointer;
+}
+
+@media (min-width: 320px) { 
+    .inputTodoList {
+        display: flex;
+        border-radius: 10px;
+        border: none;
+        width: 250px;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .botaoTodoList {
+        margin-top: 10px;
+        font-size: 20px;
+        padding: 10px;
+        background-color: #E1DA06;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    /* CSS DO COMPONENTE TODOITEMS */
+    .div-ul {
+        background: #FFF;
+        width: 280px;
+        height: 100%;
+        padding-bottom: 70px;
+    }
+ }
+
+ @media (min-width: 425px) {
+    .inputTodoList {
+        width: 380px;
+    }
+
+    /* CSS DO COMPONENTE TODOITEMS */
+    .div-ul {
+        background: #FFF;
+        width: 380px;
+    }
+ }
+
+ @media (min-width: 768px) {
+    .inputTodoList {
+        display: inline-flex;
+        width: 320px;
+        font-size: 20px;
+    }
+
+    .botaoTodoList { 
+      margin-left: 25px;
+    }
+
+    /* CSS DO COMPONENTE TODOITEMS */
+    .div-ul {
+        background: #FFF;
+        width: 470px;
+    }
+ }

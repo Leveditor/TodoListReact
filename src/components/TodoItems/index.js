@@ -22,7 +22,7 @@ class TodoItems extends Component {
                     <ul>
                         {this.props.lista.map((item) => {
                             return (                           // QUANDO CLICAR EM UMA KEY ESSA KEY SERA ENVIADO PARA O PARAMETRO DA FUNÇÃO
-                                <li key={item.key} className="li" >{item.text} <span onClick={() => this.delete(item.key)}>X</span></li>
+                                <li key={item.key} className="li" >{item.text} <span onClick={() => this.delete(item.key)}><i className="fas fa-trash-alt trash"></i></span></li>
                             )
                         })}
                     </ul>
